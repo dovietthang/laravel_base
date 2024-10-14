@@ -145,7 +145,14 @@ class PluginManager
     protected function getPluginsConfig(): array
     {
         $installed = [];
-        $resource  = opendir($this->getPluginsDir());
+        $pluginDir = $this->getPluginsDir();
+
+        // Tạo thư mục nếu chưa tồn tại
+        if (!is_dir($pluginDir)) {
+            mkdir($pluginDir, 0755, true);
+        }
+
+        $resource = opendir($pluginDir);
         while ($filename = @readdir($resource)) {
             if ($filename == '.' || $filename == '..') {
                 continue;

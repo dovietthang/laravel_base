@@ -37,11 +37,11 @@
         <!-- End of Mega Men -->
         <!-- Topbar -->
         <div class="flex items-center gap-2 lg:gap-3.5">
-            <!-- <button class="btn btn-icon btn-icon-lg size-9 rounded-full hover:bg-primary-light hover:text-primary text-gray-500" data-modal-toggle="#search_modal">
+            <button class="btn btn-icon btn-icon-lg size-9 rounded-full hover:bg-primary-light hover:text-primary text-gray-500" data-modal-toggle="#search_modal">
                 <i class="ki-filled ki-magnifier">
                 </i>
-            </button> -->
-            <!-- <div class="dropdown" data-dropdown="true" data-dropdown-offset="170px, 10px" data-dropdown-placement="bottom-end" data-dropdown-trigger="click|lg:click">
+            </button>
+            <div class="dropdown" data-dropdown="true" data-dropdown-offset="170px, 10px" data-dropdown-placement="bottom-end" data-dropdown-trigger="click|lg:click">
                 <button class="dropdown-toggle btn btn-icon btn-icon-lg size-9 rounded-full hover:bg-primary-light hover:text-primary dropdown-open:bg-primary-light dropdown-open:text-primary text-gray-500">
                     <i class="ki-filled ki-messages">
                     </i>
@@ -61,7 +61,7 @@
                             <div class="flex items-center justify-between flex-wrap gap-2 px-5">
                                 <div class="flex items-center flex-wrap gap-2">
                                     <div class="flex items-center justify-center shrink-0 rounded-full bg-gray-100 border border-gray-200 size-11">
-                                        <img alt="" class="size-7" src= " {{ asset('media/brand-logos/gitlab.svg') }}" />
+                                        <img alt="" class="size-7" src=" {{ asset('media/brand-logos/gitlab.svg') }}" />
                                     </div>
                                     <div class="flex flex-col">
                                         <a class="text-2sm font-semibold text-gray-900 hover:text-primary-active" href="#">
@@ -75,13 +75,13 @@
                                 <div class="flex items-center gap-2.5">
                                     <div class="flex -space-x-2">
                                         <div class="flex">
-                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]" src= " {{ asset('media/avatars/300-4.png') }}" />
+                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]" src=" {{ asset('media/avatars/300-4.png') }}" />
                                         </div>
                                         <div class="flex">
-                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]" src= " {{ asset('media/avatars/300-1.png') }}" />
+                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]" src=" {{ asset('media/avatars/300-1.png') }}" />
                                         </div>
                                         <div class="flex">
-                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]" src= " {{ asset('media/avatars/300-2.png') }}" />
+                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-[30px]" src=" {{ asset('media/avatars/300-2.png') }}" />
                                         </div>
                                         <div class="flex">
                                             <span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-3xs size-[30px] text-success-inverse size-6 ring-success-light bg-success">
@@ -178,7 +178,7 @@
                     <div class="scrollable-y-auto" data-scrollable="true" data-scrollable-dependencies="#header" data-scrollable-max-height="auto" data-scrollable-offset="280px">
                         <div class="flex flex-col gap-5 py-5">
                             <div class="flex items-end gap-3.5 px-5">
-                                <img alt="" class="rounded-full size-9" src= " {{ asset('media/avatars/300-5.png') }}" />
+                                <img alt="" class="rounded-full size-9" src=" {{ asset('media/avatars/300-5.png') }}" />
                                 <div class="flex flex-col gap-1.5">
                                     <div class="card shadow-none flex flex-col bg-gray-100 gap-2.5 p-3 rounded-bl-none">
                                         <p class="text-2sm font-medium text-gray-700">
@@ -208,13 +208,13 @@
                                     </div>
                                 </div>
                                 <div class="relative shrink-0">
-                                    <img alt="" class="rounded-full size-9" src= " {{ asset('media/avatars/300-2.png') }}" />
+                                    <img alt="" class="rounded-full size-9" src=" {{ asset('media/avatars/300-2.png') }}" />
                                     <span class="size-[4.8px] badge badge-circle badge-success absolute top-7 end-0 transform -translate-y-1/2">
                                     </span>
                                 </div>
                             </div>
                             <div class="flex items-end gap-3.5 px-5">
-                                <img alt="" class="rounded-full size-9" src= " {{ asset('media/avatars/300-4.png') }}" />
+                                <img alt="" class="rounded-full size-9" src=" {{ asset('media/avatars/300-4.png') }}" />
                                 <div class="flex flex-col gap-1.5">
                                     <div class="card shadow-none flex flex-col bg-gray-100 gap-2.5 p-3 rounded-bl-none">
                                         <p class="text-2sm font-medium text-gray-700">
@@ -227,7 +227,7 @@
                                 </div>
                             </div>
                             <div class="flex items-end gap-3.5 px-5">
-                                <img alt="" class="rounded-full size-9" src= " {{ asset('media/avatars/300-1.png') }}" />
+                                <img alt="" class="rounded-full size-9" src=" {{ asset('media/avatars/300-1.png') }}" />
                                 <div class="flex flex-col gap-1.5">
                                     <div class="card shadow-none flex flex-col bg-gray-100 gap-2.5 p-3 rounded-bl-none">
                                         <p class="text-2sm font-medium text-gray-700">
@@ -255,7 +255,7 @@
                                     </div>
                                 </div>
                                 <div class="relative shrink-0">
-                                    <img alt="" class="rounded-full size-9" src= " {{ asset('media/avatars/300-2.png') }}" />
+                                    <img alt="" class="rounded-full size-9" src=" {{ asset('media/avatars/300-2.png') }}" />
                                     <span class="size-[4.8px] badge badge-circle badge-success absolute top-7 end-0 transform -translate-y-1/2">
                                     </span>
                                 </div>
@@ -276,13 +276,13 @@
                                     </div>
                                 </div>
                                 <div class="relative shrink-0">
-                                    <img alt="" class="rounded-full size-9" src= " {{ asset('media/avatars/300-2.png') }}" />
+                                    <img alt="" class="rounded-full size-9" src=" {{ asset('media/avatars/300-2.png') }}" />
                                     <span class="size-[4.8px] badge badge-circle badge-success absolute top-7 end-0 transform -translate-y-1/2">
                                     </span>
                                 </div>
                             </div>
                             <div class="flex items-end gap-3.5 px-5">
-                                <img alt="" class="rounded-full size-9" src= " {{ asset('media/avatars/300-4.png') }}" />
+                                <img alt="" class="rounded-full size-9" src=" {{ asset('media/avatars/300-4.png') }}" />
                                 <div class="flex flex-col gap-1.5">
                                     <div class="card shadow-none flex flex-col bg-gray-100 gap-2.5 p-3 rounded-bl-none">
                                         <p class="text-2sm font-medium text-gray-700">
@@ -299,7 +299,7 @@
                     <div class="mb-2.5">
                         <div class="flex grow gap-2 p-5 bg-gray-100 mb-2.5" id="join_request">
                             <div class="relative shrink-0">
-                                <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-14.png') }}" />
+                                <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-14.png') }}" />
                                 <span class="size-1.5 badge badge-circle bg-gray-400 absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                 </span>
                             </div>
@@ -331,7 +331,7 @@
                             </div>
                         </div>
                         <div class="relative grow mx-5">
-                            <img alt="" class="rounded-full size-[30px] absolute left-0 top-2/4 -translate-y-2/4 ms-2.5" src= " {{ asset('media/avatars/300-2.png') }}" />
+                            <img alt="" class="rounded-full size-[30px] absolute left-0 top-2/4 -translate-y-2/4 ms-2.5" src=" {{ asset('media/avatars/300-2.png') }}" />
                             <input class="input h-auto py-4 ps-12 bg-transparent" placeholder="Write a message..." type="text" value="" />
                             <div class="flex items-center gap-2.5 absolute right-3 top-1/2 -translate-y-1/2">
                                 <button class="btn btn-sm btn-icon btn-light btn-clear">
@@ -364,7 +364,7 @@
                         <div class="flex items-center justify-between flex-wrap gap-2 px-5 py-3.5">
                             <div class="flex items-center flex-wrap gap-2">
                                 <div class="flex items-center justify-center shrink-0 rounded-full bg-gray-100 border border-gray-200 size-10">
-                                    <img alt="" class="size-6" src= " {{ asset('media/brand-logos/jira.svg') }}" />
+                                    <img alt="" class="size-6" src=" {{ asset('media/brand-logos/jira.svg') }}" />
                                 </div>
                                 <div class="flex flex-col">
                                     <a class="text-2sm font-semibold text-gray-900 hover:text-primary-active" href="#">
@@ -404,7 +404,7 @@
                         <div class="flex items-center justify-between flex-wrap gap-2 px-5 py-3.5">
                             <div class="flex items-center flex-wrap gap-2">
                                 <div class="flex items-center justify-center shrink-0 rounded-full bg-gray-100 border border-gray-200 size-10">
-                                    <img alt="" class="size-6" src= " {{ asset('media/brand-logos/evernote.svg') }}" />
+                                    <img alt="" class="size-6" src=" {{ asset('media/brand-logos/evernote.svg') }}" />
                                 </div>
                                 <div class="flex flex-col">
                                     <a class="text-2sm font-semibold text-gray-900 hover:text-primary-active" href="#">
@@ -424,7 +424,7 @@
                         <div class="flex items-center justify-between flex-wrap gap-2 px-5 py-3.5">
                             <div class="flex items-center flex-wrap gap-2">
                                 <div class="flex items-center justify-center shrink-0 rounded-full bg-gray-100 border border-gray-200 size-10">
-                                    <img alt="" class="size-6" src= " {{ asset('media/brand-logos/gitlab.svg') }}" />
+                                    <img alt="" class="size-6" src=" {{ asset('media/brand-logos/gitlab.svg') }}" />
                                 </div>
                                 <div class="flex flex-col">
                                     <a class="text-2sm font-semibold text-gray-900 hover:text-primary-active" href="#">
@@ -444,7 +444,7 @@
                         <div class="flex items-center justify-between flex-wrap gap-2 px-5 py-3.5">
                             <div class="flex items-center flex-wrap gap-2">
                                 <div class="flex items-center justify-center shrink-0 rounded-full bg-gray-100 border border-gray-200 size-10">
-                                    <img alt="" class="size-6" src= " {{ asset('media/brand-logos/google-webdev.svg') }}" />
+                                    <img alt="" class="size-6" src=" {{ asset('media/brand-logos/google-webdev.svg') }}" />
                                 </div>
                                 <div class="flex flex-col">
                                     <a class="text-2sm font-semibold text-gray-900 hover:text-primary-active" href="#">
@@ -601,7 +601,7 @@
                                 <div class="flex flex-col gap-5 pt-3 pb-4 divider-y divider-gray-200">
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-4.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-4.png') }}" />
                                             <span class="size-1.5 badge badge-circle badge-success absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -652,7 +652,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-5.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-5.png') }}" />
                                             <span class="size-1.5 badge badge-circle badge-success absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -734,7 +734,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-1.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-1.png') }}" />
                                             <span class="size-1.5 badge badge-circle bg-gray-400 absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -756,7 +756,7 @@
                                                 </span>
                                             </div>
                                             <div class="card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
-                                                <img class="h-5" src= " {{ asset('media/file-types/pdf.svg') }}" />
+                                                <img class="h-5" src=" {{ asset('media/file-types/pdf.svg') }}" />
                                                 <a class="hover:text-primary-active font-medium text-gray-700 text-xs me-1" href="#">
                                                     Launch_nov24.pptx
                                                 </a>
@@ -770,7 +770,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-11.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-11.png') }}" />
                                             <span class="size-1.5 badge badge-circle badge-success absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -798,7 +798,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-14.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-14.png') }}" />
                                             <span class="size-1.5 badge badge-circle bg-gray-400 absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -1008,10 +1008,10 @@
                                                     </div>
                                                     <div class="flex -space-x-2">
                                                         <div class="flex">
-                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src= " {{ asset('media/avatars/300-3.png') }}" />
+                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src=" {{ asset('media/avatars/300-3.png') }}" />
                                                         </div>
                                                         <div class="flex">
-                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src= " {{ asset('media/avatars/300-2.png') }}" />
+                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src=" {{ asset('media/avatars/300-2.png') }}" />
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1161,13 +1161,13 @@
                                                     </div>
                                                     <div class="flex -space-x-2">
                                                         <div class="flex">
-                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src= " {{ asset('media/avatars/300-4.png') }}" />
+                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src=" {{ asset('media/avatars/300-4.png') }}" />
                                                         </div>
                                                         <div class="flex">
-                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src= " {{ asset('media/avatars/300-1.png') }}" />
+                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src=" {{ asset('media/avatars/300-1.png') }}" />
                                                         </div>
                                                         <div class="flex">
-                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src= " {{ asset('media/avatars/300-2.png') }}" />
+                                                            <img class="hover:z-5 relative shrink-0 rounded-full ring-1 ring-light-light size-6" src=" {{ asset('media/avatars/300-2.png') }}" />
                                                         </div>
                                                         <div class="flex">
                                                             <span class="hover:z-5 relative inline-flex items-center justify-center shrink-0 rounded-full ring-1 font-semibold leading-none text-3xs size-6 text-success-inverse size-6 ring-success-light bg-success">
@@ -1191,7 +1191,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-6.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-6.png') }}" />
                                             <span class="size-1.5 badge badge-circle absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -1220,7 +1220,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-12.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-12.png') }}" />
                                             <span class="size-1.5 badge badge-circle badge-success absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -1399,7 +1399,7 @@
                                 <div class="flex flex-col gap-5 pt-3 pb-4">
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-1.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-1.png') }}" />
                                             <span class="size-1.5 badge badge-circle bg-gray-400 absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -1484,7 +1484,7 @@
                                             </div>
                                             <div class="card shadow-none flex items-center flex-row gap-1.5 p-2.5 rounded-lg bg-light-active">
                                                 <div class="flex items-center justify-center w-[26px] h-[30px] shrink-0 bg-white rounded border border-gray-200">
-                                                    <img class="h-5" src= " {{ asset('media/brand-logos/jira.svg') }}" />
+                                                    <img class="h-5" src=" {{ asset('media/brand-logos/jira.svg') }}" />
                                                 </div>
                                                 <a class="hover:text-primary-active font-medium text-gray-700 text-xs me-1" href="#">
                                                     User-feedback.jira
@@ -1507,7 +1507,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-17.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-17.png') }}" />
                                             <span class="size-1.5 badge badge-circle badge-success absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -1569,7 +1569,7 @@
                                     </div>
                                     <div class="flex grow gap-2.5 px-5">
                                         <div class="relative shrink-0 mt-0.5">
-                                            <img alt="" class="rounded-full size-8" src= " {{ asset('media/avatars/300-9.png') }}" />
+                                            <img alt="" class="rounded-full size-8" src=" {{ asset('media/avatars/300-9.png') }}" />
                                             <span class="size-1.5 badge badge-circle bg-gray-400 absolute top-7 end-0.5 ring-1 ring-light transform -translate-y-1/2">
                                             </span>
                                         </div>
@@ -1657,7 +1657,7 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div class="menu" data-menu="true">
                 <div class="menu-item" data-menu-item-offset="20px, 10px" data-menu-item-placement="bottom-end" data-menu-item-toggle="dropdown" data-menu-item-trigger="click|lg:click">
                     <div class="menu-toggle btn btn-icon rounded-full">
@@ -1755,7 +1755,7 @@
                                         </i>
                                     </span>
                                     <span class="menu-title">
-                                    {{ __('panel/dashboard.dark_mode') }}
+                                        {{ __('panel/dashboard.dark_mode') }}
                                     </span>
                                     <label class="switch switch-sm">
                                         <input data-theme-state="dark" data-theme-toggle="true" name="check" type="checkbox" value="1">
