@@ -20,4 +20,6 @@ return [
     'frontend'          => '前台首页',
     'profile'           => '个人中心',
     'sign_out'          => '退出登录',
+    'language'          => 'language',
+    'dark_mode'          => 'Dark Mode',
 ];

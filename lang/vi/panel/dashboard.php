@@ -21,4 +21,6 @@ return [
     'frontend'          => 'Giao diện người dùng',
     'profile'           => 'Hồ sơ',
     'sign_out'          => 'Đăng xuất',
+    'language'          => 'Ngôn ngữ',
+    'dark_mode'          => 'Chế độ tối',
 ];

@@ -21,4 +21,6 @@ return [
     'frontend'          => 'Frontend',
     'profile'           => 'Perfil',
     'sign_out'          => 'Cerrar sesión',
+    'language'          => 'language',
+    'dark_mode'          => 'Dark Mode',
 ];

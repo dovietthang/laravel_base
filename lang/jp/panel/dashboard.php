@@ -20,4 +20,6 @@ return [
     'frontend'          => 'フロントページ',
     'profile'           => 'プロフィール',
     'sign_out'          => 'ログアウト',
+    'language'          => 'language',
+    'dark_mode'          => 'Dark Mode',
 ];
