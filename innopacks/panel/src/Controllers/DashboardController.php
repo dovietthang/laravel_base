@@ -27,6 +27,8 @@ class DashboardController extends BaseController
             'cards' => DashboardRepo::getInstance()->getCards(),
             'order' => [
                 'latest_week' => OrderRepo::getInstance()->getOrderCountLatestWeek(),
+                'latest_month' => OrderRepo::getInstance()->getOrderCountLatestWeek(),
+                'latest_year' => OrderRepo::getInstance()->getOrderCountLatestWeek(),
             ],
             'top_sale_products' => ProductRepo::getInstance()->getTopSaleProducts(),
         ];

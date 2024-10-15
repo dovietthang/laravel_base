@@ -31,25 +31,29 @@ class DashboardRepo extends BaseRepo
         return [
             [
                 'title'    => panel_trans('dashboard.order_quantity'),
-                'icon'     => 'bi bi-cart',
+                'icon'     => 'ki-filled ki-text-number',
+                'color'     => 'text-primary',
                 'quantity' => Order::query()->count(),
                 'url'      => panel_route('orders.index'),
             ],
             [
                 'title'    => panel_trans('dashboard.product_quantity'),
-                'icon'     => 'bi bi-bag',
+                'icon'     => 'ki-filled ki-shop',
+                'color'     => 'text-danger',
                 'quantity' => Product::query()->count(),
                 'url'      => panel_route('products.index'),
             ],
             [
                 'title'    => panel_trans('dashboard.customer_quantity'),
-                'icon'     => 'bi bi-person',
+                'icon'     => 'ki-filled ki-users',
+                'color'     => 'text-info',
                 'quantity' => Customer::query()->count(),
                 'url'      => panel_route('customers.index'),
             ],
             [
                 'title'    => panel_trans('dashboard.order_amount'),
-                'icon'     => 'bi bi-gem',
+                'icon'     => 'ki-filled ki-handcart',
+                'color'     => 'text-success',
                 'quantity' => currency_format($validOrderBuilder->sum('total')),
                 'url'      => panel_route('orders.index'),
             ],

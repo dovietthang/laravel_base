@@ -26,8 +26,8 @@
 
         <div class="card flex-col justify-between gap-6 h-full bg-cover bg-[right_top_-1.7rem] bg-no-repeat channel-stats-bg">
             <a href="{{ $card['url'] }}">
-                <img alt="" class="w-7 mt-4 ms-5" src="{{ asset('media/brand-logos/linkedin-2.svg') }}">
-                <i class="w-7 mt-4 ms-5 {{ $card['icon'] }}"></i>
+                <!-- <img alt="" class="w-7 mt-4 ms-5" src="{{ asset('media/brand-logos/linkedin-2.svg') }}"> -->
+                <i class="text-2.5xl mt-4 ms-5 mb-3 {{ $card['icon'] }} {{ $card['color'] }}"></i>
                 <div class="flex flex-col gap-1 pb-4 px-5">
                     <span class="text-3xl font-semibold text-gray-900">
                         {{ $card['quantity'] }}
@@ -85,12 +85,12 @@
                 <div class="card-header">
                     <h3 class="card-title">{{ __('panel/dashboard.order_trends') }}</h3>
                     <div class="flex gap-5">
-                        <label class="switch switch-sm">
+                        <!-- <label class="switch switch-sm">
                             <input class="order-2" name="check" type="checkbox" value="1">
                             <span class="switch-label order-1">
                                 Referrals only
                             </span>
-                        </label>
+                        </label> -->
                         <select class="select select-sm w-28" name="select">
                             <option value="1">
                                 1 month
