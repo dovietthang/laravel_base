@@ -59,7 +59,7 @@
             @include('panel::layouts.header')
             <!-- End of Header -->
             <!-- Content -->
-            <main class="grow content pt-5" id="content" role="content">
+            <main class="grow content pt-3" id="content" role="content">
                 <!-- Container -->
                 <div class="container-fixed" id="content_container">
                 </div>
